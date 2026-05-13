@@ -1,0 +1,59 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local dependency folders
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and OS local files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller/build outputs
+build/
+dist/
+dist*/
+*.spec
+*.manifest
+*.log
+
+# Buildozer/Android generated build workspace
+.buildozer/
+**/.buildozer/
+
+# Runtime/generated files
+*.tmp
+*.bak
+*.backup
+*.orig
+
+# Local credentials and remembered login state
+credentials.ini
+remember_password.ini
+**/credentials.ini
+**/remember_password.ini
+
+# Local app config copies; keep examples/templates instead
+config.local.ini
+**/config.local.ini
+
+# Large or generated data outputs
+04_数据文件/outputs/
+04_数据文件/ephemeris/de422.bsp
+*.xlsx~
+~$*.xlsx
+
+# Archive backups created during cleanup/refactors
+90_历史版本归档/备份脚本/主程序备份/
